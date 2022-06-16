@@ -1,0 +1,30 @@
+{
+  "name": "database-blog",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.1.12",
+    "@strapi/plugin-users-permissions": "4.1.12",
+    "@strapi/plugin-i18n": "4.1.12",
+    "better-sqlite3": "7.4.6"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "8d948bb2-cd3a-4b7a-9d17-b591edab6640"
+  },
+  "engines": {
+    "node": "16.13.2",
+    "yarn": "1.22.15"
+  },
+  "license": "MIT"
+}
