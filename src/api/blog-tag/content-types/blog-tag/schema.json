@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "tags",
+  "collectionName": "blog_tags",
   "info": {
-    "singularName": "tag",
-    "pluralName": "tags",
-    "displayName": "tag"
+    "singularName": "blog-tag",
+    "pluralName": "blog-tags",
+    "displayName": "blog-tag"
   },
   "options": {
     "draftAndPublish": true
@@ -18,7 +18,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::blogpost.blogpost",
-      "mappedBy": "tags"
+      "inversedBy": "blog_tags"
     }
   }
 }

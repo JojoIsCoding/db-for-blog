@@ -45,17 +45,23 @@
       "target": "api::category.category",
       "inversedBy": "blogposts"
     },
-    "tags": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::tag.tag",
-      "mappedBy": "blogpost"
-    },
     "Date": {
       "type": "date"
     },
     "excerpt": {
       "type": "richtext"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "inversedBy": "blogposts"
+    },
+    "blog_tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::blog-tag.blog-tag",
+      "inversedBy": "blogposts"
     }
   }
 }
