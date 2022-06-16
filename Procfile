@@ -1,1 +1,1 @@
-web:node index.js
+web:node --bind 127.0.0.1:$1337 index.js
