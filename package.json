@@ -24,7 +24,6 @@
   },
   "engines": {
     "node": "16.13.2",
-    "npm" : "please-use-yarn",
     "yarn": "1.22.15"
   },
   "license": "MIT"
